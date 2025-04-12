@@ -8,16 +8,16 @@ struct Books {
 	int price;
 };
 struct Headerf {
-	char a4[50];
-	char a5[50];
+	char al4[50];
+	char al5[50];
 
 };
 
 
 struct Header {
-	char a1[50];
-	char a2[50];
-	char a3[50];
+	char al1[50];
+	char al2[50];
+	char al3[50];
 	struct Headerf otherA;
 };
 
@@ -37,9 +37,9 @@ int main() {
 
 	printf("Изначальная таблица:\n");
 	printf("---------------------------------------------------------\n");
-	printf("%16s %13s %10s %15s\n", header.a1, "|", "|", "|");
+	printf("%16s %13s %10s %15s\n", header.al1, "|", "|", "|");
 	printf("-----------------------------| %10s %15s\n", "|", "|");
-	printf("%s %9s %6s %4s %5s %2s %6s\n", header.otherA.a4, "|", header.otherA.a5, "|", header.a2, "|", header.a3, "|");
+	printf("%s %9s %6s %4s %5s %2s %6s\n", header.otherA.al4, "|", header.otherA.al5, "|", header.al2, "|", header.al3, "|");
 	printf("-----------------------------|----------|---------------|\n");
 	printf("%-8s %7s %4s %3s %5c %4s %8d %6s\n", b->bookname, "|", b->author, "|", b->availibility, "|", b->price, "|");
 	printf("-----------------------------|----------|---------------|\n");
@@ -62,7 +62,7 @@ int main() {
 	printf("---------------------------------------------------------\n");
 	printf("%16s %13s %10s %15s\n", "Поэма", "|", "|", "|");
 	printf("-----------------------------| %10s %15s\n", "|", "|");
-	printf("%s %9s %6s %4s %5s %2s %6s\n", header.otherA.a4, "|", header.otherA.a5, "|", header.a2, "|", header.a3, "|");
+	printf("%s %9s %6s %4s %5s %2s %6s\n", header.otherA.al4, "|", header.otherA.al5, "|", header.al2, "|", header.al3, "|");
 	printf("-----------------------------|----------|---------------|\n");
 	printf("%-8s %9s %4s %5s %5c %4s %8d %6s\n", b->bookname, "|", b->author, "|", b->availibility, "|", b->price, "|");
 	printf("-----------------------------|----------|---------------|\n");
