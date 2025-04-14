@@ -42,7 +42,7 @@ int main() {
     // Структура заголовка таблицы
     struct Header header;
 
-    
+    // Инициализация полей заголовка
     header.al1[0] = 'П';
     header.al1[1] = 'о';
     header.al1[2] = 'э';
