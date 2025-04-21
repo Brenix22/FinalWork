@@ -24,11 +24,17 @@ struct Header {
 };
 
 int main() {
-<<<<<<< HEAD
+   
+
     setlocale(LC_ALL, "Russian");
-=======
+
 	setlocale(LC_ALL, "Russian");
-	int a = 10;
+    char str[50];     // Массив для хранения имени
+    printf("Введите строку: ");
+    scanf_s("%49s", str); // Читаем строку, ограничивая количество символов
+	
+    
+    int a = 10;
 	// Проверка на положительность
 	if (a > 0) {
 		printf("Переменная a положительная.\n");
@@ -37,7 +43,7 @@ int main() {
 		printf("Переменная a неположительная.\n");
 	}
 // конец проверки на положительность
->>>>>>> origin/Cherenkov
+
 
     // Инициализация массива книг
     struct Books books_st[] = {
