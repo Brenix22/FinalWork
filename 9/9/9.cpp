@@ -26,19 +26,13 @@ struct Header {
 };
 
 int main() {
-<<<<<<< HEAD
-
-
-   
-
-
     setlocale(LC_ALL, "Russian");
 
-	setlocale(LC_ALL, "Russian");
+	
 
-    char str[50];     // Массив для хранения имени
-    printf("Введите строку: ");
-    scanf_s("%49s", str); // Читаем строку, ограничивая количество символов
+    //char str[50];     // Массив для хранения имени
+    //printf("Введите строку: ");
+    //scanf_s("%49s", str); // Читаем строку, ограничивая количество символов
 	
     
     int a = 10;
@@ -51,15 +45,14 @@ int main() {
 	}
 // конец проверки на положительность
 
-=======
-    setlocale(LC_ALL, "Russian");
+
 
     // Инициализация генератора случайных чисел
     srand(time(0));
 
-    int a = 10;
+    int f = 10;
     // Проверка на положительность
-    if (a > 0) {
+    if (f > 0) {
         printf("Переменная a положительная.\n");
     }
     else {
@@ -74,7 +67,14 @@ int main() {
         printf("%4d", random_array[i]);
         if ((i + 1) % 5 == 0) printf("\n"); // Вывод по 5 элементов в строке
     }
->>>>>>> 0d11559e48d00e840705b1ef051a15620dabc614
+    // Вывод только четных элементов массива
+    printf("\nЧетные элементы массива:\n");
+    for (int i = 0; i < 15; i++) {
+        if (random_array[i] % 2 == 0) {
+            printf("%4d", random_array[i]);
+        }
+    }
+    printf("\n");
 
     // Инициализация массива книг
     struct Books books_st[] = {
@@ -172,7 +172,11 @@ int main() {
     printf("---------------------------------------------------------\n");
     printf("%-8s %9s %4s %2s %5c %4s %8d %6s\n", (b + 4)->bookname, "|", (b + 4)->author, "|", (b + 4)->availibility, "|", (b + 4)->price, "|");
     printf("---------------------------------------------------------\n");
-    printf("Ваша строка:",str);
+    
+    char str[50];     // Массив для хранения имени
+    printf("Введите строку: ");
+    scanf_s("%49s", str, (unsigned)_countof(str)); // Читаем строку, ограничивая количество символов
+    printf("Ваша строка: %s\n", str);
 }
 
 void change(struct Books* source, int sourceSize) {
