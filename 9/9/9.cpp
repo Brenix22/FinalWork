@@ -32,6 +32,7 @@ int main() {
     setlocale(LC_ALL, "Russian");
 
 	setlocale(LC_ALL, "Russian");
+
     char str[50];     // Массив для хранения имени
     printf("Введите строку: ");
     scanf_s("%49s", str); // Читаем строку, ограничивая количество символов
@@ -144,6 +145,7 @@ int main() {
     printf("---------------------------------------------------------\n");
     printf("%-8s %9s %4s %2s %5c %4s %8d %6s\n", (b + 4)->bookname, "|", (b + 4)->author, "|", (b + 4)->availibility, "|", (b + 4)->price, "|");
     printf("---------------------------------------------------------\n");
+    printf("Ваша строка:",str);
 }
 
 void change(struct Books* source, int sourceSize) {
