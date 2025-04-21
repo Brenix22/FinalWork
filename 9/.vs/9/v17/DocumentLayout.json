@@ -1,16 +1,9 @@
 {
   "Version": 1,
-<<<<<<< HEAD
   "WorkspaceRootPath": "D:\\laba228\\9\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{453EA389-8081-4575-B40E-68F97ADD328A}|9\\9.vcxproj|D:\\laba228\\9\\9\\9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-=======
-  "WorkspaceRootPath": "C:\\9laba\\9\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{453EA389-8081-4575-B40E-68F97ADD328A}|9\\9.vcxproj|C:\\9laba\\9\\9\\9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
->>>>>>> ad5f8b4da9591c0f4e01c668620f064a565670cd
       "RelativeMoniker": "D:0:0:{453EA389-8081-4575-B40E-68F97ADD328A}|9\\9.vcxproj|solutionrelative:9\\9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -27,23 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "9.cpp",
-<<<<<<< HEAD
               "DocumentMoniker": "D:\\laba228\\9\\9\\9.cpp",
               "RelativeDocumentMoniker": "9\\9.cpp",
               "ToolTip": "D:\\laba228\\9\\9\\9.cpp",
               "RelativeToolTip": "9\\9.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-21T11:37:38.305Z",
-=======
-              "DocumentMoniker": "C:\\9laba\\9\\9\\9.cpp",
-              "RelativeDocumentMoniker": "9\\9.cpp",
-              "ToolTip": "C:\\9laba\\9\\9\\9.cpp",
-              "RelativeToolTip": "9\\9.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAewB8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-21T11:39:49.326Z",
->>>>>>> ad5f8b4da9591c0f4e01c668620f064a565670cd
               "EditorCaption": ""
             }
           ]

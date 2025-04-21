@@ -24,10 +24,10 @@ struct Header {
 };
 
 int main() {
-<<<<<<< HEAD
-=======
+
+
    
->>>>>>> ad5f8b4da9591c0f4e01c668620f064a565670cd
+
 
     setlocale(LC_ALL, "Russian");
 
