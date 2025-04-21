@@ -24,11 +24,20 @@ struct Header {
 };
 
 int main() {
+<<<<<<< HEAD
+=======
+   
+>>>>>>> ad5f8b4da9591c0f4e01c668620f064a565670cd
 
     setlocale(LC_ALL, "Russian");
 
 	setlocale(LC_ALL, "Russian");
-	int a = 10;
+    char str[50];     // Массив для хранения имени
+    printf("Введите строку: ");
+    scanf_s("%49s", str); // Читаем строку, ограничивая количество символов
+	
+    
+    int a = 10;
 	// Проверка на положительность
 	if (a > 0) {
 		printf("Переменная a положительная.\n");

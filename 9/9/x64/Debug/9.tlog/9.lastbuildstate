@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.43.34808:TargetPlatformVersion=10.0.22621.0:
 Debug|x64|D:\laba228\9\|
+=======
+PlatformToolSet=v143:VCToolArchitecture=Native64Bit:VCToolsVersion=14.42.34433:TargetPlatformVersion=10.0.22621.0:
+Debug|x64|C:\9laba\9\|
+>>>>>>> ad5f8b4da9591c0f4e01c668620f064a565670cd
