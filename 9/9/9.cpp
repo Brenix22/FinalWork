@@ -24,9 +24,9 @@ struct Header {
 };
 
 int main() {
-<<<<<<< HEAD
+
     setlocale(LC_ALL, "Russian");
-=======
+
 	setlocale(LC_ALL, "Russian");
 	int a = 10;
 	// Проверка на положительность
@@ -37,7 +37,7 @@ int main() {
 		printf("Переменная a неположительная.\n");
 	}
 // конец проверки на положительность
->>>>>>> origin/Cherenkov
+
 
     // Инициализация массива книг
     struct Books books_st[] = {

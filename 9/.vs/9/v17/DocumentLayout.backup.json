@@ -1,16 +1,9 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-  "WorkspaceRootPath": "C:\\234\\9\\",
+  "WorkspaceRootPath": "D:\\laba228\\9\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{453EA389-8081-4575-B40E-68F97ADD328A}|9\\9.vcxproj|C:\\234\\9\\9\\9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-=======
-  "WorkspaceRootPath": "C:\\tst_8\\9\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{453EA389-8081-4575-B40E-68F97ADD328A}|9\\9.vcxproj|C:\\tst_8\\9\\9\\9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
->>>>>>> origin/Cherenkov
+      "AbsoluteMoniker": "D:0:0:{453EA389-8081-4575-B40E-68F97ADD328A}|9\\9.vcxproj|D:\\laba228\\9\\9\\9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{453EA389-8081-4575-B40E-68F97ADD328A}|9\\9.vcxproj|solutionrelative:9\\9.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -27,21 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "9.cpp",
-<<<<<<< HEAD
-              "DocumentMoniker": "C:\\234\\9\\9\\9.cpp",
+              "DocumentMoniker": "D:\\laba228\\9\\9\\9.cpp",
               "RelativeDocumentMoniker": "9\\9.cpp",
-              "ToolTip": "C:\\234\\9\\9\\9.cpp",
-              "RelativeToolTip": "9\\9.cpp",
-              "ViewState": "AgIAABwAAAAAAAAAAAAAADAAAAAYAAAAAAAAAA==",
-=======
-              "DocumentMoniker": "C:\\tst_8\\9\\9\\9.cpp",
-              "RelativeDocumentMoniker": "9\\9.cpp",
-              "ToolTip": "C:\\tst_8\\9\\9\\9.cpp",
-              "RelativeToolTip": "9\\9.cpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACEAAAAkAAAAAAAAAA==",
->>>>>>> origin/Cherenkov
+              "ToolTip": "D:\\laba228\\9\\9\\9.cpp*",
+              "RelativeToolTip": "9\\9.cpp*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-12-02T14:22:53.208Z",
+              "WhenOpened": "2025-04-21T11:37:38.305Z",
               "EditorCaption": ""
             }
           ]
